@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+body {background-color: #E08658; font-family: 'Roboto', sans-serif;}
+#main {max-width: 1200px;margin: 0 auto;padding: 0 15px;}
+#cover-div {margin: 0;}
+#image {max-width: 100%; display: block; margin: 0 auto; margin-top: 150px;}
+
+#info {color: #fff; display: flex; justify-content: center; line-height: 1.6; margin: 0 auto; max-width: 770px; padding-top: 55px;}
+#info__leftSpace {width: 25%;}
+#info__rightSpace {width: 75%;}
+#headline {text-transform: uppercase; font-size: 16px; font-weight: 700;}
+p {font-size: 16px;}
+
+#contact {max-width: 100%;}
+#contact ul {display: flex; margin: 85px auto 0 auto; max-width: 450px; justify-content: space-around;}
+#contact__logo {display: inline-block;}
+#contact__logo img {max-width: 50px; max-height: auto;}
+
+#whomadethis {color: #fff; display: flex; margin-top: 30px; justify-content: center;}
+
+
+.documenti-sc {
+  text-decoration: none;
+  color: #fff;
+}
+@media (max-width: 360px) {
+  #image {margin-top: 50px;}
+  #info__leftSpace{display: none;}
+  #info__leftSpace{max-width: 100%;}
+
+}
